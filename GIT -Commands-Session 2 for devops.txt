@@ -1,0 +1,77 @@
+Session #1: 09/04/2022 - 8:00PM IST - 11:00PM IST
+=========================================
+****************
+Agenda:
+=======
+
+- VCS - version control system
+- SCM - Source Code Management
+
+Binary files -- executable 
+source code --- .java .py
+ 
+Tortoise SVN
+
+Git -- software
+GitHub -- Hosted in internet
+
+Git -- Master
+GitHub -- Main
+
+Master/Main -- GitHub/GitLab
+
+Pull Requests 
+
+#1 Azure --- VM instance with Linux OS
+#2 AWS --- EC2 instance with Linux OS
+#3 Windows / Linux / Mac -- Install Git directly
+
+git --version
+
+sudo yum install git - Amazon Linux
+
+sudo apt-get install git - Ubuntu
+
+Installation / Configuration / Troubleshooting 
+
+1. Create a directory
+		
+	cd intellipaat-git
+
+2. Create a repository 
+	git init 
+
+then use command ls -al
+
+git branch 
+
+3. Create 2 files : 1.txt and 2.txt 
+	echo "This is first file" > 1.txt
+	echo "This is second file" > 2.txt
+   
+4. Check the status
+	git status
+	
+5. Add the files to the staging area
+	git add . 
+	git add 1.txt 
+	git add 1.txt 2.txt 
+
+6. Commit the files 
+	git commit -m "Added files 1.txt and 2.txt"
+
+Assignment:
+===========
+
+- mkdir
+- cd 
+- ls 
+- ls -al
+- cat
+- ls -lrt
+
+
+Reference:
+==========
+
+https://git-scm.com/
